@@ -9,6 +9,6 @@ import concurrent.futures
 def cpu_intensive(request):
     result = 0
     while True:
-        for _ in range(10_000_000):
-            result += math.sqrt(_)
+        for c in range(100000000):
+            result += math.sqrt(c)
         return JsonResponse({"message": "CPU-bound operation completed"})

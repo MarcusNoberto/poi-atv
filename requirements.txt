@@ -1,1 +1,2 @@
-Por favor, pergunte seu administrador.
+Django==3.2.5
+
